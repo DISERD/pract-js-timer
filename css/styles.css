@@ -1,0 +1,27 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.timer-display {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.controls button {
+    font-size: 18px;
+    padding: 4px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.controls button:hover {
+    background-color: gray;
+}
